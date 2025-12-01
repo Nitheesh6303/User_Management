@@ -67,7 +67,7 @@ initializeDb();
 
 // ----------------- API Endpoints -----------------
 
-// 1️⃣ Create User
+// 1️ Create User
 app.post(
   '/create_user',
   checkRequiredFields(['full_name', 'mob_num', 'pan_num', 'manager_id']),
@@ -101,7 +101,7 @@ app.post(
   }
 );
 
-// 2️⃣ Get Users
+// 2️ Get Users
 app.post('/get_users', async (req, res) => {
   try {
     const { user_id, mob_num, manager_id } = req.body;
@@ -129,7 +129,7 @@ app.post('/get_users', async (req, res) => {
   }
 });
 
-// 3️⃣ Delete User
+// 3️ Delete User
 app.post('/delete_user', async (req, res) => {
   try {
     const { user_id, mob_num } = req.body;
@@ -156,7 +156,7 @@ app.post('/delete_user', async (req, res) => {
   }
 });
 
-// 4️⃣ Update User
+// 4️ Update User
 app.post('/update_user', async (req, res) => {
   try {
     const { user_ids, update_data } = req.body;

@@ -1,4 +1,4 @@
-### 1️⃣ Create User
+### 1️ Create User
 POST http://localhost:3001/create_user
 Content-Type: application/json
 
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 ###
 
-### 2️⃣ Get All Users
+### 2️ Get All Users
 POST http://localhost:3001/get_users
 Content-Type: application/json
 
@@ -19,7 +19,7 @@ Content-Type: application/json
 
 ###
 
-### 3️⃣ Get User by ID
+### 3️ Get User by ID
 POST http://localhost:3001/get_users
 Content-Type: application/json
 
@@ -29,7 +29,7 @@ Content-Type: application/json
 
 ###
 
-### 4️⃣ Get Users by Mobile
+### 4️ Get Users by Mobile
 POST http://localhost:3001/get_users
 Content-Type: application/json
 
@@ -39,7 +39,7 @@ Content-Type: application/json
 
 ###
 
-### 5️⃣ Get Users by Manager
+### 5️ Get Users by Manager
 POST http://localhost:3001/get_users
 Content-Type: application/json
 
@@ -49,7 +49,7 @@ Content-Type: application/json
 
 ###
 
-### 6️⃣ Delete User by ID
+### 6️ Delete User by ID
 POST http://localhost:3001/delete_user
 Content-Type: application/json
 
@@ -59,7 +59,7 @@ Content-Type: application/json
 
 ###
 
-### 7️⃣ Delete User by Mobile
+### 7️ Delete User by Mobile
 POST http://localhost:3001/delete_user
 Content-Type: application/json
 
@@ -69,7 +69,7 @@ Content-Type: application/json
 
 ###
 
-### 8️⃣ Update Single User
+### 8️ Update Single User
 POST http://localhost:3001/update_user
 Content-Type: application/json
 
@@ -85,7 +85,7 @@ Content-Type: application/json
 
 ###
 
-### 9️⃣ Bulk Update Users (only manager change)
+### 9️ Bulk Update Users (only manager change)
 POST http://localhost:3001/update_user
 Content-Type: application/json
 
